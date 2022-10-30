@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    background-blend-mode:color;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em 3em;
+}
+
+header img {
+    width: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 10em;
+    font-family:'Inter', serif;
+    font-weight: 600;
+}
+
+.alinhamento-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 1.7em;
+}
+
+.buttons-header button{
+    height: 2.5em;
+    padding-bottom: 0.1em;
+}
+
+.elementos-main h1 {
+    font-size: 3.5em;
+}
+
+.elementos-main h3{
+    font-size: 1.45em;
+    font-weight: 500;
+}
+
+.elementos-main p{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.elementos-main input{
+    height: 4em;
+    width: 60%;
+    outline: 0;
+    padding-left: 1em;
+    border: 0;
+    border-radius: 0.2em 0 0 0.2em;
+}
+
+.elementos-main button {
+    height: 2.2em;
+    width: 30%;
+    color: white;
+    background-color: #e50914;
+    border: 0;
+    font-size: 1.5em;
+    border-radius: 0 0.2em 0.2em 0;
+}
+
+#idioma {
+    background-color: transparent;
+    border: 0.1em solid white;
+    border-radius: 0.2em;
+    padding: 0.5em;
+    color: white;
+}
+
+#idioma i{
+    padding: 0 0.3em;
+}
+
+#entrar {
+    width: 5em;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: 700;
+}
